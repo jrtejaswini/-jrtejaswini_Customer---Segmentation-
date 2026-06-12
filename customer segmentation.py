@@ -1,15 +1,12 @@
 """
 ╔══════════════════════════════════════════════════════════════════╗
-║        DATA SCIENCE PROJECT 2 — CUSTOMER SEGMENTATION            ║
-║        Unsupervised Learning: PCA + K-Means Clustering           ║        ║
+║        DATA SCIENCE PROJECT 2 — CUSTOMER SEGMENTATION                        ║
+║        Unsupervised Learning: PCA + K-Means Clustering                       ║        
 ╚══════════════════════════════════════════════════════════════════╝
 
 Pipeline:  SCALE → COMPRESS (PCA) → CLUSTER (K-Means) → TRANSLATE (Personas)
 """
 
-# ──────────────────────────────────────────────────────────────────
-# 0. IMPORTS
-# ──────────────────────────────────────────────────────────────────
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -26,11 +23,6 @@ warnings.filterwarnings('ignore')
 
 np.random.seed(42)
 print("✅ All libraries imported successfully.\n")
-
-
-# ──────────────────────────────────────────────────────────────────
-# 1. LOAD / GENERATE DATASET
-# ──────────────────────────────────────────────────────────────────
 print("=" * 60)
 print("STEP 1: LOADING DATASET")
 print("=" * 60)
