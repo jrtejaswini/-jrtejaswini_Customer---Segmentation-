@@ -1,8 +1,7 @@
 """
 ╔══════════════════════════════════════════════════════════════════╗
-║        DATA SCIENCE PROJECT 3 — CUSTOMER SEGMENTATION            ║
-║        Unsupervised Learning: PCA + K-Means Clustering           ║
-║        DecodeLabs Industrial Training Kit | Batch 2026           ║
+║        DATA SCIENCE PROJECT 2 — CUSTOMER SEGMENTATION            ║
+║        Unsupervised Learning: PCA + K-Means Clustering           ║        ║
 ╚══════════════════════════════════════════════════════════════════╝
 
 Pipeline:  SCALE → COMPRESS (PCA) → CLUSTER (K-Means) → TRANSLATE (Personas)
