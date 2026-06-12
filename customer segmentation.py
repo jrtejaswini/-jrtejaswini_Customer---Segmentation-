@@ -321,7 +321,7 @@ print("✅ Dashboard saved as 'customer_segmentation_dashboard.png'")
 plt.show()
 
 print("\n" + "=" * 60)
-print("PROJECT 3 COMPLETE ✅")
+print("PROJECT 2 COMPLETE ✅")
 print("=" * 60)
 print(f"  Dataset       : {df.shape[0]} customers × {df.shape[1]} columns")
 print(f"  Scaling       : StandardScaler (z-score)")
