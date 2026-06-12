@@ -1,1 +1,1 @@
-# ds-project2-customer-segmentation
+# data science-project2-customer-segmentation
