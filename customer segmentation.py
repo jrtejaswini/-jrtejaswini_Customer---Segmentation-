@@ -1,7 +1,7 @@
 """
 ╔══════════════════════════════════════════════════════════════════╗
-║        DATA SCIENCE PROJECT 2 — CUSTOMER SEGMENTATION                        ║
-║        Unsupervised Learning: PCA + K-Means Clustering                       ║        
+║        DATA SCIENCE PROJECT — CUSTOMER SEGMENTATION              ║
+║        Unsupervised Learning: PCA + K-Means Clustering           ║        
 ╚══════════════════════════════════════════════════════════════════╝
 
 Pipeline:  SCALE → COMPRESS (PCA) → CLUSTER (K-Means) → TRANSLATE (Personas)
@@ -313,7 +313,7 @@ print("✅ Dashboard saved as 'customer_segmentation_dashboard.png'")
 plt.show()
 
 print("\n" + "=" * 60)
-print("PROJECT 2 COMPLETE ✅")
+print("PROJECT COMPLETE ✅")
 print("=" * 60)
 print(f"  Dataset       : {df.shape[0]} customers × {df.shape[1]} columns")
 print(f"  Scaling       : StandardScaler (z-score)")
